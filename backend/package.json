@@ -1,9 +1,9 @@
 {
   "devDependencies": {
     "@nomicfoundation/hardhat-toolbox": "^5.0.0",
-    "hardhat": "^2.22.4"
+    "hardhat": "^2.22.3"
   },
   "dependencies": {
-    "@nomicfoundation/hardhat-ignition": "^0.15.4"
+    "@nomicfoundation/hardhat-chai-matchers": "^2.0.6"
   }
 }
