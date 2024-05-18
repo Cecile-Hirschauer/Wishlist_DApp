@@ -4,6 +4,7 @@ import "./globals.css"
 import {Inter as FontSans} from "next/font/google"
 
 import {cn} from "@/lib/utils"
+import Layout from "@/components/shared/Layout";
 
 const fontSans = FontSans({
     subsets: ["latin"],
@@ -26,7 +27,9 @@ export default function RootLayout({children}) {
             )}
         >
         <RainbowKitAndWagmiProvider>
-            {children}
+            <Layout>
+                {children}
+            </Layout>
         </RainbowKitAndWagmiProvider>
         </body>
         </html>
