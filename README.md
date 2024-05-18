@@ -40,35 +40,31 @@ The Wishlist contract allows users to:
 
 ### Test Coverage
 
-Version
-=======
+#### Version
+
 > solidity-coverage: v0.8.12
 
-Instrumenting for coverage...
-=============================
+#### Instrumenting for coverage...
 
 > Wishlist.sol
 
-Compilation:
-============
+#### Compilation:
 
 Compiled 1 Solidity file successfully (evm target: paris).
 
-Network Info
-============
+#### Network Info
+
 > HardhatEVM: v2.22.4
 > network:    hardhat
 
 
-Deployment
-==========
+#### Deployment
 
 1. [x] should deploy the smart contract
 2. [x] addToWishList
 3. [x] should add an element in the wishList
 
-buyItem
-=======
+#### buyItem
 
 1. [x] should NOT buy item if not enough funds are provided
 2. [x] should buy the item if enough funds are provided
