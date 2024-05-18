@@ -38,22 +38,7 @@ The Wishlist contract allows users to:
 - `NotEnoughFounds()`: Thrown when the provided funds are not enough to buy an item.
 - `AlreadyBought()`: Thrown when an attempt is made to buy an item that has already been bought.
 
-## Test Coverage
-
-WishList Tests
-Deployment
-✔ should deploy the smart contract
-addToWishList
-✔ should add an element in the wishList
-buyItem
-✔ should NOT buy item if not enough funds are provided
-✔ should buy the item if enough funds are provided
-✔ should NOT buy the item if the item has already been bought
-
-
-5 passing (595ms)
-
-cecile@pc-linuxshop-2208235:~/AlyraCours/wishlist/backend$ npx hardhat coverage
+### Test Coverage
 
 Version
 =======
@@ -75,17 +60,19 @@ Network Info
 > network:    hardhat
 
 
-###### **Deployment**
+Deployment
+==========
 
 1. [x] should deploy the smart contract
 2. [x] addToWishList
 3. [x] should add an element in the wishList
 
-###### **buyItem**
+buyItem
+=======
 
-1. [ ] should NOT buy item if not enough funds are provided
-2. [ ] should buy the item if enough funds are provided
-3. [ ] should NOT buy the item if the item has already been bought
+1. [x] should NOT buy item if not enough funds are provided
+2. [x] should buy the item if enough funds are provided
+3. [x] should NOT buy the item if the item has already been bought
 
 
 5 passing (151ms)
@@ -100,7 +87,7 @@ All files      |      100 |       75 |      100 |      100 |                |
 ---------------|----------|----------|----------|----------|----------------|
 
 
-## Deployment
+### Deployment
 
 To deploy the Wishlist smart contract with local node, use the following command:
 
